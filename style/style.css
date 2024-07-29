@@ -17,6 +17,7 @@
 
 .nav-text {
   color: #a53860 !important;
+  text-decoration: underline !important;
 }
 .nav-text:hover {
   color: #fff !important;
@@ -24,6 +25,7 @@
 
 .active {
   color: #fff !important;
+  text-decoration: underline !important;
 }
 
 .hero-section {
@@ -36,7 +38,7 @@
   color: #fff;
   overflow: hidden;
 }
-.hero-section picture {
+.hero-section .img-content {
   margin-top: 55px;
   position: absolute;
   top: 0;
@@ -45,7 +47,7 @@
   height: 100%;
   z-index: -2;
 }
-.hero-section picture img {
+.hero-section .img-hero {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -54,11 +56,11 @@
   position: relative;
   z-index: 0;
 }
-.hero-section h1 {
+.hero-section .titulo {
   font-size: 3rem;
   margin-bottom: 20px;
 }
-.hero-section p {
+.hero-section .sub-title {
   font-size: 1.25rem;
   margin-bottom: 30px;
 }
@@ -72,6 +74,27 @@
 }
 .hero-section .btn-primary:hover {
   background-color: #18030b;
+}
+
+.footer-content {
+  background: #da627d;
+}
+
+.contacto, .enlaces, .siguenos {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.text-link {
+  color: #47313a;
+}
+
+.text-icon {
+  color: #47313a;
+}
+
+.icono {
+  color: #47313a;
 }
 
 * {
