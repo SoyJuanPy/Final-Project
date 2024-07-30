@@ -12,7 +12,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>Fashion|Productos</title>
   </head>
   <body>
@@ -40,114 +43,231 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto text-center">
-            <a class="nav-link nav-text" aria-current="page" href="../index.html"
+            <a
+              class="nav-link nav-text"
+              aria-current="page"
+              href="../index.html"
               >Inicio</a
             >
-            <a class="nav-link nav-text active" href="productos.html">Productos</a>
+            <a class="nav-link nav-text active" href="productos.html"
+              >Productos</a
+            >
             <a class="nav-link nav-text" href="nosotros.html">Nosotros</a>
             <a class="nav-link nav-text" href="contacto.html">Contacto</a>
           </div>
         </div>
       </div>
     </nav>
-    <!-- Productos -->
-
+<!-- Productos -->
 <section class="productos my-5">
-        <div class="container">
-            <h1 class="titulo text-center mb-4">Nuestros Productos</h1>
+  <div class="container">
+    <h1 class="titulo text-center mb-4">Nuestros Productos</h1>
 
-            <!-- Filtros -->
-            <section class="filtros my-4">
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-md-3">
-                            <label for="category" class="seleccion">Categoría</label>
-                            <select id="category" class="form-control">
-                                <option selected>Elegir...</option>
-                                <option>Ropa</option>
-                                <option>Accesorios</option>
-                                <option>Zapatos</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="price" class="seleccion">Precio</label>
-                            <select id="price" class="form-control">
-                                <option selected>Elegir...</option>
-                                <option>$0 - $50</option>
-                                <option>$50 - $100</option>
-                                <option>$100 - $200</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="size" class="seleccion">Talla</label>
-                            <select id="size" class="form-control">
-                                <option selected>Elegir...</option>
-                                <option>XS</option>
-                                <option>S</option>
-                                <option>M</option>
-                                <option>L</option>
-                                <option>XL</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-3 align-self-end">
-                            <button type="submit" class="botom btn btn-primary btn-block">Aplicar </button>
-                        </div>
+        <!-- Filtros -->
+        <section class="filtros my-4">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="category" class="seleccion">Categoría</label>
+                        <select id="category" class="form-control">
+                            <option selected>Elegir...</option>
+                            <option>Ropa</option>
+                            <option>Accesorios</option>
+                            <option>Zapatos</option>
+                        </select>
                     </div>
-                </form>
-            </section>
-
-          
-<!-- Footer -->
-    <footer class="footer-content text-center py-4">
-        <div class="container">
-          <div class="row">
-            <!-- Información de Contacto -->
-            <div class="col-md-4">
-              <h5 class="contacto">Contacto</h5>
-              <p>
-                <strong>Dirección:</strong> Calle Ficticia 123, Ciudad, País<br />
-                <strong>Teléfono:</strong> +123 456 789<br />
-                <strong>Correo Electrónico:</strong> info@fashionhub.com
-              </p>
+                  <div class="form-group col-md-3">
+                          <label for="price" class="seleccion">Precio</label>
+                          <select id="price" class="form-control">
+                            <option selected>Elegir...</option>
+                            <option>$0 - $50</option>
+                            <option>$50 - $100</option>
+                            <option>$100 - $200</option>
+                          </select>
+                  </div>
+                    <div class="form-group col-md-3">
+                        <label for="size" class="seleccion">Talla</label>
+                        <select id="size" class="form-control">
+                            <option selected>Elegir...</option>
+                            <option>XS</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3 align-self-end">
+                        <button type="submit" class="botom btn btn-primary btn-block">Aplicar </button>
+                    </div>
+              </div>
+            </form>
+<!-- Contenido -->
+    <div class="container mt-4">
+        <div class="row">
+    <!-- Primera tarjeta -->
+          <div class="col-md-4 mb-4">
+                <div class="card">
+            <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 1">
+            <div class="card-body">
+                <h5 class="card-title">Producto 1</h5>
+                <p class="card-text">Descripción breve del producto 1.</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
             </div>
-  
-            <!-- Enlaces de Navegación -->
-            <div class="col-md-4">
-              <h5 class="enlaces">Enlaces</h5>
-              <ul class="list-unstyled">
-                <li><a href="../index.html" class="text-link">Inicio</a></li>
-                <li><a href="productos.html" class="text-link">Productos</a></li>
-                 <li><a href="nosotros.html" class="text-link">Nosotros</a></li>
-                <li><a href="contacto.html" class="text-link">Contacto</a></li>
-              </ul>
-            </div>
-  
-            <!-- Redes Sociales -->
-            <div class="col-md-4">
-              <h5 class="siguenos">Síguenos</h5>
-              <a href="#" class="text-icon me-3"
-                ><i class="icono bi bi-facebook"></i> Facebook</a
-              >
-              <a href="#" class=" me-3 text-icon"
-                ><i class="icono bi bi-instagram"></i> Instagram</a
-              >
-              <a href="#" class="text-icon"
-                ><i class="icono bi bi-twitter"></i> Twitter</a
-              >
-            </div>
+        </div>
+    </div>
+    <!-- Segunda tarjeta -->
+    <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 2">
+              <div class="card-body">
+                <h5 class="card-title">Producto 2</h5>
+                <p class="card-text">Descripción breve del producto 2.</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+              </div>
           </div>
+      </div>
+    <!-- Tercera tarjeta -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 3">
+              <div class="card-body">
+                <h5 class="card-title">Producto 3</h5>
+                <p class="card-text">Descripción breve del producto 3.</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+      <!-- Primera tarjeta -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 1">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 1</h5>
+                  <p class="card-text">Descripción breve del producto 1.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+              </div>
+          </div>
+      </div>
+      <!-- Segunda tarjeta -->
+      <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                  <h5 class="card-title">Producto 2</h5>
+                  <p class="card-text">Descripción breve del producto 2.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+                </div>
+            </div>
+        </div>
+      <!-- Tercera tarjeta -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                  <h5 class="card-title">Producto 3</h5>
+                  <p class="card-text">Descripción breve del producto 3.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+  <div class="row">
+      <!-- Primera tarjeta -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 1">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 1</h5>
+                  <p class="card-text">Descripción breve del producto 1.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+              </div>
+          </div>
+      </div>
+      <!-- Segunda tarjeta -->
+      <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                  <h5 class="card-title">Producto 2</h5>
+                  <p class="card-text">Descripción breve del producto 2.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+                </div>
+            </div>
+        </div>
+      <!-- Tercera tarjeta -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x180" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                  <h5 class="card-title">Producto 3</h5>
+                  <p class="card-text">Descripción breve del producto 3.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+</section>
+    <!-- Footer -->
+    <footer class="footer-content text-center py-4 mt-auto">
+      <div class="container">
+        <div class="row">
+          <!-- Información de Contacto -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h5 class="contacto">Contacto</h5>
+            <p>
+              <strong>Dirección:</strong> Calle Ficticia 123, Ciudad, País<br />
+              <strong>Teléfono:</strong> +123 456 789<br />
+              <strong>Correo Electrónico:</strong> info@fashionhub.com
+            </p>
+          </div>
+
+          <!-- Enlaces de Navegación -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h5 class="enlaces">Enlaces</h5>
+            <ul class="list-unstyled">
+              <li><a href="../index.html" class="text-link">Inicio</a></li>
+              <li><a href="productos.html" class="text-link">Productos</a></li>
+              <li><a href="nosotros.html" class="text-link">Nosotros</a></li>
+              <li><a href="contacto.html" class="text-link">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Redes Sociales -->
+          <div class="col-md-4">
+            <h5 class="siguenos">Síguenos</h5>
+            <a href="#" class="text-icon me-3">
+              <i class="icono bi bi-facebook"></i> Facebook
+            </a>
+            <a href="#" class="text-icon me-3">
+              <i class="icono bi bi-instagram"></i> Instagram
+            </a>
+            <a href="#" class="text-icon">
+              <i class="icono bi bi-twitter"></i> Twitter
+            </a>
+          </div>
+        </div>
         <div class="py-2 mt-4">
           <p class="mb-0">
             &copy; 2024 Fashion Hub. Todos los derechos reservados.
           </p>
         </div>
-      </footer>
-  
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"
-      ></script>
-    </body>
-  </html>
-  
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
