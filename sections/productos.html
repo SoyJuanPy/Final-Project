@@ -18,7 +18,7 @@
   <body>
     <!-- Barra de navegacion -->
 
-    <nav class="navbar navbar-expand-sm nav-bar d-flex position-fixed w-100">
+    <nav class="navbar navbar-expand-sm nav-bar d-flex fixed-top w-100">
       <div class="container-fluid justify-content-between">
         <a class="navbar-brand text-logo" href="../index.html"
           ><img
@@ -50,7 +50,53 @@
         </div>
       </div>
     </nav>
-    
+    <!-- Productos -->
+
+<section class="productos my-5">
+        <div class="container">
+            <h1 class="titulo text-center mb-4">Nuestros Productos</h1>
+
+            <!-- Filtros -->
+            <section class="filtros my-4">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <label for="category" class="seleccion">Categoría</label>
+                            <select id="category" class="form-control">
+                                <option selected>Elegir...</option>
+                                <option>Ropa</option>
+                                <option>Accesorios</option>
+                                <option>Zapatos</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="price" class="seleccion">Precio</label>
+                            <select id="price" class="form-control">
+                                <option selected>Elegir...</option>
+                                <option>$0 - $50</option>
+                                <option>$50 - $100</option>
+                                <option>$100 - $200</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="size" class="seleccion">Talla</label>
+                            <select id="size" class="form-control">
+                                <option selected>Elegir...</option>
+                                <option>XS</option>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3 align-self-end">
+                            <button type="submit" class="botom btn btn-primary btn-block">Aplicar </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+          
 <!-- Footer -->
     <footer class="footer-content text-center py-4">
         <div class="container">
