@@ -125,7 +125,9 @@
   background: #da627d;
 }
 
-.contacto, .enlaces, .siguenos {
+.contacto,
+.enlaces,
+.siguenos {
   font-size: 1.5rem;
   color: #fff;
 }
