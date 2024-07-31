@@ -151,11 +151,11 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-.sobre-nosotros h2 {
+.sobre-nosotros .sub {
   color: #f9dbbd;
   margin-bottom: 1rem;
 }
-.sobre-nosotros p {
+.sobre-nosotros .parra {
   font-size: 1rem;
   line-height: 1.6;
 }
