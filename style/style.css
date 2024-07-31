@@ -163,7 +163,7 @@
   border: 2px solid #450920;
 }
 
-@media screen and (max-width: 994px) {
+@media screen and (max-width: 991px) {
   .columna1 {
     order: 2;
   }
