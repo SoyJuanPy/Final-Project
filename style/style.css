@@ -57,10 +57,12 @@
   z-index: 0;
 }
 .hero-section .titulo {
+  text-shadow: 1px 2px #000;
   font-size: 3rem;
   margin-bottom: 20px;
 }
 .hero-section .sub-title {
+  text-shadow: 1px 2px #000;
   font-size: 1.25rem;
   margin-bottom: 30px;
 }
@@ -81,6 +83,7 @@
   font-size: 2.5rem;
   text-align: center;
   color: #333;
+  text-shadow: 1px 1px 2px;
 }
 .productos .filtros {
   margin-bottom: 2rem;
@@ -110,6 +113,11 @@
   font-size: 12px;
   cursor: pointer;
 }
+.productos .form-group .botom:hover {
+  background: #fff !important;
+  color: #ffa5ab !important;
+  border: 1px solid #ffa5ab !important;
+}
 
 .pulso {
   margin-top: 1rem;
@@ -120,14 +128,46 @@
   font-size: 12px;
   cursor: pointer;
 }
+.pulso:hover {
+  background: #fff !important;
+  color: #ffa5ab !important;
+  border: 1px solid #ffa5ab !important;
+}
+
+.card {
+  box-shadow: 4px 1px 10px #000;
+}
+.card:hover {
+  box-shadow: 4px 1px 10px #ffa5ab;
+}
+
+.sobre-nosotros {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.sobre-nosotros .titulo {
+  color: #450920;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.sobre-nosotros h2 {
+  color: #f9dbbd;
+  margin-bottom: 1rem;
+}
+.sobre-nosotros p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.sobre-nosotros .img-fluid {
+  border: 2px solid #450920;
+}
 
 .footer-content {
   background: #da627d;
 }
 
-.contacto,
-.enlaces,
-.siguenos {
+.contacto, .enlaces, .siguenos {
   font-size: 1.5rem;
   color: #fff;
 }

@@ -8,6 +8,7 @@
         font-size: 2.5rem
         text-align: center
         color: #333
+        text-shadow: 1px 1px 2px
 
     .filtros
         margin-bottom: 2rem
@@ -36,6 +37,11 @@
             padding: 0.5rem 1rem
             font-size: 12px
             cursor: pointer
+            &:hover
+                background: $light-color !important
+                color: $fifth-color !important
+                border: 1px solid $fifth-color !important
+
 .pulso
     margin-top: 1rem
     background-color: $fifth-color !important
@@ -44,3 +50,14 @@
     padding: 0.5rem 1rem
     font-size: 12px
     cursor: pointer
+    &:hover
+        background: $light-color !important
+        color: $fifth-color !important
+        border: 1px solid $fifth-color !important
+
+.card
+    box-shadow: 4px 1px 10px $dark-color
+
+    &:hover
+
+        box-shadow: 4px 1px 10px $fifth-color
