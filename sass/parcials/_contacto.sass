@@ -1,1 +1,35 @@
 @import "_colors"
+.contactos
+    margin-top: 70px
+    background-color: $light-color
+
+    .titulo
+        font-size: 2.5rem
+        color: $primary-color
+
+    .titulo2
+        color: $secondary-color
+
+    .form-label
+        font-weight: bold
+
+    .btn-primary
+        background-color: $primary-color
+        border: none
+
+        &:hover
+            background-color: darken($primary-color, 10%)
+
+    .text-icon
+        display: inline-block
+        color: $primary-color
+        font-size: 1.5rem
+        margin-right: 1rem
+
+        &:hover
+            color: darken($primary-color, 10%)
+
+        .icon
+            margin-right: 0.5rem
+.form-control
+    resize: none

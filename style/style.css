@@ -171,6 +171,44 @@
     order: 1;
   }
 }
+.contactos {
+  margin-top: 70px;
+  background-color: #fff;
+}
+.contactos .titulo {
+  font-size: 2.5rem;
+  color: #450920;
+}
+.contactos .titulo2 {
+  color: #f9dbbd;
+}
+.contactos .form-label {
+  font-weight: bold;
+}
+.contactos .btn-primary {
+  background-color: #450920;
+  border: none;
+}
+.contactos .btn-primary:hover {
+  background-color: #18030b;
+}
+.contactos .text-icon {
+  display: inline-block;
+  color: #450920;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.contactos .text-icon:hover {
+  color: #18030b;
+}
+.contactos .text-icon .icon {
+  margin-right: 0.5rem;
+}
+
+.form-control {
+  resize: none;
+}
+
 .footer-content {
   background: #da627d;
 }
