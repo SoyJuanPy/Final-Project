@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../font/font.css" />
+    <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Fashion|Registrarse</title>
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+
+    <nav class="navbar navbar-expand-sm nav-bar d-flex fixed-top w-100">
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand text-logo" href="../index.html"
+          ><img
+            src="../image/logo.png"
+            alt="logo-fashion"
+            class="img-logo"
+          />Fashion</a
+        >
+        <button
+          class="navbar-toggler menu-burger"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto text-center">
+            <a class="nav-link nav-text" aria-current="page" href="../index.html"
+              >Inicio</a
+            >
+            <a class="nav-link nav-text" href="productos.html">Productos</a>
+            <a class="nav-link nav-text" href="nosotros.html">Nosotros</a>
+            <a class="nav-link nav-text" href="contacto.html">Contacto</a>
+            <a class="nav-link nav-text active" href="registro.html">Registrarse</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Sección de Registro -->
+    <section class="registro py-5">
+        <div class="container">
+            <h1 class="titulo text-center mb-4">Registro</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label" required>Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="tuemail@ejemplo.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" placeholder="Tu Contraseña" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p>¿Ya tienes una cuenta? <a href="sesion.html" class="text-link">Inicia sesión</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-content text-center py-4">
+        <div class="container">
+          <div class="row">
+            <!-- Información de Contacto -->
+            <div class="col-md-4">
+              <h5 class="contacto">Contacto</h5>
+              <p>
+                <strong>Dirección:</strong> Calle Ficticia 123, Ciudad, País<br />
+                <strong>Teléfono:</strong> +123 456 789<br />
+                <strong>Correo Electrónico:</strong> info@fashionhub.com
+              </p>
+            </div>
+  
+            <!-- Enlaces de Navegación -->
+            <div class="col-md-4">
+              <h5 class="enlaces">Enlaces</h5>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="text-link">Inicio</a></li>
+                <li><a href="productos.html" class="text-link">Productos</a></li>
+                <li><a href="nosotros.html" class="text-link">Nosotros</a></li>
+                <li><a href="contacto.html" class="text-link">Contacto</a></li>
+                <li><a href="registro.html" class="text-link">Registrarse</a></li>
+              </ul>
+            </div>
+  
+            <!-- Redes Sociales -->
+            <div class="col-md-4">
+              <h5 class="siguenos">Síguenos</h5>
+              <a href="#" class="text-icon me-3"
+                ><i class="icono bi bi-facebook"></i> Facebook</a
+              >
+              <a href="#" class=" me-3 text-icon"
+                ><i class="icono bi bi-instagram"></i> Instagram</a
+              >
+              <a href="#" class="text-icon"
+                ><i class="icono bi bi-twitter"></i> Twitter</a
+              >
+            </div>
+          </div>
+        <div class="py-2 mt-4">
+          <p class="mb-0">
+            &copy; 2024 Fashion Hub. Todos los derechos reservados.
+          </p>
+        </div>
+      </footer>
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
+  

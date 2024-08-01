@@ -216,6 +216,61 @@
   resize: none;
 }
 
+.registro {
+  background-color: #fff;
+  margin-top: 70px;
+}
+.registro .titulo {
+  font-size: 2.5rem;
+  color: #450920;
+}
+.registro .form-label {
+  font-weight: bold;
+}
+.registro .btn-primary {
+  background-color: #450920;
+  border: none;
+}
+.registro .btn-primary:hover {
+  background-color: #18030b;
+}
+.registro .text-link {
+  color: #450920;
+  text-decoration: none;
+}
+.registro .text-link:hover {
+  text-decoration: underline;
+}
+
+.login {
+  margin-top: 70px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login .titulo {
+  font-size: 2.5rem;
+  color: #450920;
+}
+.login .form-label {
+  font-weight: bold;
+}
+.login .btn-primary {
+  background-color: #450920;
+  border: none;
+}
+.login .btn-primary:hover {
+  background-color: #18030b;
+}
+.login .text-link {
+  color: #450920;
+  text-decoration: none;
+}
+.login .text-link:hover {
+  text-decoration: underline;
+}
+
 .footer-content {
   background: #da627d;
 }
